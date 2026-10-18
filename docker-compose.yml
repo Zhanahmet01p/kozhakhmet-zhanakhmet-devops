@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: kozhakhmet-zhanakhmet-devops
+    container_name: surname-name-container
+    environment:
+      STUDENT_NAME: "${STUDENT_NAME:-Zhanakhmet}"
+      STUDENT_SURNAME: "${STUDENT_SURNAME:-Kozhakhmet}"
+      STUDENT_GROUP: "${STUDENT_GROUP:-it2-2306}"
+      STUDENT_ID: "${STUDENT_ID:-37764}"
