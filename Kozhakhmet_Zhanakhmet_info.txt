@@ -1,0 +1,5 @@
+Name: Zhanakhmet
+Surname: Kozhakhmet
+Group: it2-2306
+Student ID: 37764
+Course: Devops
